@@ -1,0 +1,15 @@
+# Restricted and generated data are never committed.
+data/
+outputs/
+third_party/
+*.csv
+!resources/*.csv
+*.xlsx
+*.pt
+*.pth
+*.png
+*.dcm
+
+__pycache__/
+*.egg-info/
+.venv/
